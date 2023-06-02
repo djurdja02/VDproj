@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    height: 100%;
+    min-width: 600px;
+    min-height: 800px;
+  }
+  .meni,.naslov,.logo{
+    display: inline-block;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img{
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+  .custom-select {
+    border: none;
+    outline: none;
+  }
+  .navbar {
+    margin-top: 10px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  
+  .meni .nav-link.active {
+    font-weight: bold;
+  }
+  
+  
+  .header, .content, .footer {
+    width: 95%; 
+    margin: 20px 0;
+  }
+ 
+  .header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    min-height: 100px;
+    
+    
+  }
+  .linija{
+    border-left: 1px solid black;
+    height: 100%;
+    float: left;
+    min-width: 3px;
+    background-color: black;
+  }
+  .custom-icon {
+    background-color: black;
+  }
+  
+  .custom-icon::before {
+    color: white;
+  }
+  .paginacija{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  h4{
+    font-weight: bold;
+  }
+  .footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+ 
